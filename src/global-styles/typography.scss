@@ -6,7 +6,7 @@
 }
 
 @mixin headerLink($color: $white) {
-  font-size: 13px;
+  font-size: 16px;
   font-family: "Orbitron", sans-serif;
   font-weight: 700;
   color: $color;
@@ -22,22 +22,40 @@
 // Hero
 
 @mixin heroTitle($color: $white) {
-  font-size: 69px;
+  font-size: 104px;
+  line-height: 104px;
   font-family: "Orbitron", sans-serif;
   font-weight: 900;
   color: $color;
 }
 
 @mixin heroSubTitle($color: $hero-sub-title) {
-  font-size: 29px;
+  font-size: 44px;
+  line-height: 43px;
   font-family: "Orbitron", sans-serif;
   font-weight: 400;
   color: $color;
 }
 
 @mixin heroButton($color: $white) {
-  font-size: 12px;
+  font-size: 16px;
   font-family: Helvetica, sans-serif;
   font-weight: 700;
+  color: $color;
+}
+
+//Store Banner/CTA
+
+@mixin storeTitle($color: $orange-cta-title) {
+  font-size: 70px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+  color: $color;
+}
+
+@mixin storeSubTitle($color: $brown-cta-sub-title) {
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
   color: $color;
 }

@@ -9,7 +9,7 @@
       pagination-active-color="#ff7200"
       pagination-color="#555555"
       paginationSize="15"
-      paginationPosition="bottom"
+      paginationPosition="bottom-overlay"
     >
       <slide class="slide">
         <div class="hero-container">
@@ -44,7 +44,7 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("../assets/images/slider.png");
-  height: 1000px;
+  height: 1070px;
 }
 
 .slide2 {
@@ -55,27 +55,28 @@ export default {
   height: 1000px;
 }
 .hero-container {
-  max-width: 1000px;
+  max-width: 1200px;
   text-align: left;
   padding-left: 150px;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .hero-title {
   @include heroTitle;
-  max-width: 700px;
-  margin-bottom: -10px;
+  max-width: 1100px;
 }
 
 .hero-sub-title {
   @include heroSubTitle;
-  max-width: 750px;
+  max-width: 1200px;
+  margin-top: -60px;
+  padding-bottom: 20px;
 }
 button {
   @include heroButton;
   width: 170px;
   height: 51px;
-  border: solid $orange 0px;
+  border: solid $hero-btn 0px;
   border-radius: 4px;
-  background-color: $orange;
+  background-color: $hero-btn;
 }
 </style>

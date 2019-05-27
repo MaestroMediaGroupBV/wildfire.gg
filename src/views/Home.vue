@@ -2,7 +2,9 @@
   <div class="home">
     <Header/>
     <heroSlider/>
+
     <p>this is a test</p>
+    <StoreBanner/>
     <Footer/>
   </div>
 </template>
@@ -12,12 +14,14 @@
 import Footer from "@/components/Footer.vue";
 import Header from "@/components/Header.vue";
 import HeroSlider from "@/components/HeroSlider.vue";
+import StoreBanner from "@/components/StoreBanner.vue";
 
 export default {
   name: "home",
   components: {
     Header,
     HeroSlider,
+    StoreBanner,
     Footer
   }
 };

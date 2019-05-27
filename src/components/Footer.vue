@@ -37,10 +37,9 @@ export default {
 
 <style lang="scss" scoped>
 .footer {
-  background-color: black;
-
-  width: 100%;
-  height: 300px;
+  background-image: url("../assets/images/footer.png");
+  background-repeat: no-repeat;
+  height: 205px;
 }
 
 .footerNav {
@@ -53,7 +52,6 @@ export default {
   }
   ul li {
     list-style: none;
-    padding-bottom: 15px;
   }
 
   ul li a:hover {
@@ -65,6 +63,5 @@ export default {
   text-align: right;
 }
 .container {
-  padding-top: 50px;
 }
 </style>
