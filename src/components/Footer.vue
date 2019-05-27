@@ -21,6 +21,9 @@
             </li>
           </ul>
         </div>
+        <div class="footerRight">
+          <p>test</p>
+        </div>
       </div>
     </div>
   </div>
@@ -41,8 +44,8 @@ export default {
 }
 
 .footerNav {
-  padding-top: 50px;
   text-align: left;
+  padding-left: 150px;
   a {
     @include footerLink;
     text-decoration: none;
@@ -58,7 +61,10 @@ export default {
   }
 }
 
+.footerRight {
+  text-align: right;
+}
 .container {
-  padding-left: 150px;
+  padding-top: 50px;
 }
 </style>
