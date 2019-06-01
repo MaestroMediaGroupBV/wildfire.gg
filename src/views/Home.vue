@@ -5,6 +5,7 @@
 
     <p>this is a test</p>
     <StoreBanner/>
+    <StoreProducts/>
     <Footer/>
   </div>
 </template>
@@ -15,6 +16,7 @@ import Footer from "@/components/Footer.vue";
 import Header from "@/components/Header.vue";
 import HeroSlider from "@/components/HeroSlider.vue";
 import StoreBanner from "@/components/StoreBanner.vue";
+import StoreProducts from "@/components/StoreProducts.vue";
 
 export default {
   name: "home",
@@ -22,6 +24,7 @@ export default {
     Header,
     HeroSlider,
     StoreBanner,
+    StoreProducts,
     Footer
   }
 };

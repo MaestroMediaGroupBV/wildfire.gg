@@ -4,7 +4,7 @@
       <div class="store-container">
         <div class="store-title">MERCHANDISING</div>
         <div class="store-sub-title">OFFICAL GEAR</div>
-        <div class="store-small-text">Represent Wildfire like neverr before with your own shirt!</div>
+        <div class="store-small-text">Represent Wildfire like never before with your own shirt!</div>
         <button>SHOP NOW</button>
       </div>
     </div>
@@ -60,5 +60,6 @@ button {
   outline:none;
   text-align: left;
   background-color: Transparent;
+  
 }
 </style>
