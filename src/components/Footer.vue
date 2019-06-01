@@ -1,25 +1,23 @@
 <template>
   <div>
     <div class="footer">
-      <div class="container">
+      <div class="containerFooter">
         <div class="footerNav">
-          <ul>
-            <li>
-              <router-link to="/">ABOUT US</router-link>
-            </li>
-            <li>
-              <router-link to="/about">TEAMS</router-link>
-            </li>
-            <li>
-              <router-link to="/">PARTNERS</router-link>
-            </li>
-            <li>
-              <router-link to="/about">MEDIA</router-link>
-            </li>
-            <li>
-              <router-link to="/">MERCHANDISING</router-link>
-            </li>
-          </ul>
+          <li>
+            <router-link to="/">ABOUT US</router-link>
+          </li>
+          <li>
+            <router-link to="/">TEAMS</router-link>
+          </li>
+          <li>
+            <router-link to="/">PARTNERS</router-link>
+          </li>
+          <li>
+            <router-link to="/">MEDIA</router-link>
+          </li>
+          <li>
+            <router-link to="/">MERCHANDISING</router-link>
+          </li>
         </div>
         <div class="footerRight">
           <p>test</p>
@@ -39,22 +37,24 @@ export default {
 .footer {
   background-image: url("../assets/images/footer.png");
   background-repeat: no-repeat;
-  height: 205px;
+  height: 100%;
+  margin-bottom: -20px;
 }
 
 .footerNav {
   text-align: left;
-  padding-left: 150px;
+
   a {
     @include footerLink;
     text-decoration: none;
     color: grey;
   }
-  ul li {
+  li {
     list-style: none;
+    padding-bottom: 5px;
   }
 
-  ul li a:hover {
+  li a:hover {
     color: white;
   }
 }
@@ -62,6 +62,9 @@ export default {
 .footerRight {
   text-align: right;
 }
-.container {
+.containerFooter {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
 }
 </style>

@@ -4,6 +4,8 @@
       <div class="store-container">
         <div class="store-title">MERCHANDISING</div>
         <div class="store-sub-title">OFFICAL GEAR</div>
+        <div class="store-small-text">Represent Wildfire like neverr before with your own shirt!</div>
+        <button>SHOP NOW</button>
       </div>
     </div>
   </div>
@@ -25,16 +27,38 @@ export default {
 }
 
 .store-container {
-  padding-top: 120px;
+  padding-top: 130px;
   padding-left: 150px;
   text-align: left;
 }
 
 .store-title {
   @include storeTitle;
+  padding-left: 70px;
 }
 
 .store-sub-title {
   @include storeSubTitle;
+  margin-top: -45px;
+}
+
+.store-small-text {
+  @include storeSmallText;
+  padding-top: 130px;
+}
+
+button {
+  @include heroButton;
+  
+  height: 40px;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: solid $white 1px;
+  border-radius: 0px;
+  cursor:pointer;
+  outline:none;
+  text-align: left;
+  background-color: Transparent;
 }
 </style>

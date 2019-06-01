@@ -13,10 +13,7 @@
     >
       <slide class="slide">
         <div class="hero-container">
-          <h1 class="hero-title">GOING TO ELITESERRIEN IN STOCKHOLM!</h1>
-          <h2
-            class="hero-sub-title"
-          >The wildfire male team have successfully qualified to compete at the inferno online studio.</h2>
+          <h1 class="hero-title">GOING TO <a style="color: #ff5800 ">ELITESERRIEN</a> IN STOCKHOLM!</h1>
           <button>MORE INFO</button>
           <p>slide 1</p>
         </div>
@@ -57,26 +54,26 @@ export default {
 .hero-container {
   max-width: 1200px;
   text-align: left;
-  padding-left: 150px;
-  padding-top: 50px;
+  padding-left: 200px;
+  padding-top: 300px;
 }
 .hero-title {
   @include heroTitle;
-  max-width: 1100px;
+  max-width: 1200px;
 }
 
-.hero-sub-title {
-  @include heroSubTitle;
-  max-width: 1200px;
-  margin-top: -60px;
-  padding-bottom: 20px;
-}
 button {
   @include heroButton;
-  width: 170px;
-  height: 51px;
-  border: solid $hero-btn 0px;
-  border-radius: 4px;
-  background-color: $hero-btn;
+  
+  height: 40px;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: solid $white 1px;
+  border-radius: 0px;
+  cursor:pointer;
+  outline:none;
+  text-align: left;
+  background-color: Transparent;
 }
 </style>
