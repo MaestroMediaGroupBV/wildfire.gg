@@ -3,55 +3,50 @@
 
 //Intergral Font face
 @font-face {
-  font-family: 'integral_cfbold';
-  src: url('~@/assets/fonts/integral/IntegralCF-Bold.woff2') format('woff2'),
-       url('~@/assets/fonts/integral/IntegralCF-Bold.woff') format('woff');
+  font-family: "integral_cfbold";
+  src: url("~@/assets/fonts/integral/IntegralCF-Bold.woff2") format("woff2"),
+    url("~@/assets/fonts/integral/IntegralCF-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-
 }
 @font-face {
-  font-family: 'integral_cfbold_oblique';
-  src: url('~@/assets/fonts/integral/IntegralCF-BoldOblique.woff2') format('woff2'),
-       url('~@/assets/fonts/integral/IntegralCF-BoldOblique.woff') format('woff');
+  font-family: "integral_cfbold_oblique";
+  src: url("~@/assets/fonts/integral/IntegralCF-BoldOblique.woff2")
+      format("woff2"),
+    url("~@/assets/fonts/integral/IntegralCF-BoldOblique.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-
 }
 @font-face {
-  font-family: 'integral_cfheavy_oblique';
-  src: url('~@/assets/fonts/integral/IntegralCF-HeavyOblique.woff2') format('woff2'),
-       url('~@/assets/fonts/integral/IntegralCF-HeavyOblique.woff') format('woff');
+  font-family: "integral_cfheavy_oblique";
+  src: url("~@/assets/fonts/integral/IntegralCF-HeavyOblique.woff2")
+      format("woff2"),
+    url("~@/assets/fonts/integral/IntegralCF-HeavyOblique.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-
 }
 @font-face {
-  font-family: 'integral_cfmedium';
-  src: url('~@/assets/fonts/integral/IntegralCF-Medium.woff2') format('woff2'),
-       url('~@/assets/fonts/integral/IntegralCF-Medium.woff') format('woff');
+  font-family: "integral_cfmedium";
+  src: url("~@/assets/fonts/integral/IntegralCF-Medium.woff2") format("woff2"),
+    url("~@/assets/fonts/integral/IntegralCF-Medium.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-
 }
 @font-face {
-  font-family: 'integral_cfregular';
-  src: url('~@/assets/fonts/integral/IntegralCF-Regular.woff2') format('woff2'),
-       url('~@/assets/fonts/integral/IntegralCF-Regular.woff') format('woff');
+  font-family: "integral_cfregular";
+  src: url("~@/assets/fonts/integral/IntegralCF-Regular.woff2") format("woff2"),
+    url("~@/assets/fonts/integral/IntegralCF-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-
 }
 
-//helvetica font face 
+//helvetica font face
 @font-face {
-  font-family: 'helvetica';
-  src: url('~@/assets/fonts/helvetica/Helvetica.woff') format('woff');
+  font-family: "helvetica";
+  src: url("~@/assets/fonts/helvetica/Helvetica.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-
 }
-
 
 // NAV Links
 %navLink {
@@ -81,11 +76,9 @@
   color: $color;
 }
 
-
-
 @mixin heroButton($color: $white) {
   font-size: 20px;
-  
+
   font-family: "integral_cfmedium", sans-serif;
   font-weight: normal;
   color: $color;
@@ -123,15 +116,14 @@
   color: $color;
 }
 
-  @mixin productPrice($color: $orange-title) {
-    font-size: 16px;
-    font-family: Helvetica, sans-serif;
-    font-weight: 200;
-    color: $color;
-  }
+@mixin productPrice($color: $orange-title) {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 200;
+  color: $color;
+}
 
-
-//Results 
+//Results
 @mixin resultsHeading($color: $black) {
   font-size: 50px;
   font-family: "integral_cfbold", sans-serif;
@@ -156,7 +148,7 @@
 
 @mixin orangeButton($color: $orange-title) {
   font-size: 20px;
-  
+
   font-family: "integral_cfmedium", sans-serif;
   font-weight: normal;
   color: $color;

@@ -56,10 +56,9 @@ button {
   border-left: 0px;
   border-bottom: solid $white 4px;
   border-radius: 0px;
-  cursor:pointer;
-  outline:none;
+  cursor: pointer;
+  outline: none;
   text-align: left;
   background-color: Transparent;
-  
 }
 </style>
