@@ -49,12 +49,12 @@ export default {
 
 button {
   @include heroButton;
-  
+  padding: 0px;
   height: 40px;
   border-top: 0px;
   border-right: 0px;
   border-left: 0px;
-  border-bottom: solid $white 1px;
+  border-bottom: solid $white 4px;
   border-radius: 0px;
   cursor:pointer;
   outline:none;

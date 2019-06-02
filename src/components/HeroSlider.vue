@@ -11,7 +11,7 @@
       paginationSize="15"
       paginationPosition="bottom-overlay"
     >
-      <slide class="slide">
+      <slide class="slide" id="slide-image">
         <div class="hero-container">
           <h1 class="hero-title">GOING TO <a style="color: #ff5800 ">ELITESERRIEN</a> IN STOCKHOLM!</h1>
           <button>MORE INFO</button>
@@ -37,13 +37,19 @@ export default {
 
 <style lang="scss" scoped>
 .slide {
+max-height: 1100px;
+}
+.VueCarousel-pagination {
+  margin-top: -400px;
+  position: none;
+}
+#slide-image {
+  background-image: url("../assets/images/slider.png");
+  height: 1070px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../assets/images/slider.png");
-  height: 1070px;
 }
-
 .slide2 {
   background-size: cover;
   background-position: center;
@@ -64,12 +70,12 @@ export default {
 
 button {
   @include heroButton;
-  
+  padding: 0px;
   height: 40px;
   border-top: 0px;
   border-right: 0px;
   border-left: 0px;
-  border-bottom: solid $white 1px;
+  border-bottom: solid $white 4px;
   border-radius: 0px;
   cursor:pointer;
   outline:none;
