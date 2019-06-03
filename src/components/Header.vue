@@ -20,11 +20,6 @@
         <li>
           <router-link to="/about">MERCHANDISING</router-link>
         </li>
-        <li>
-          <router-link to="/about">
-            <button>Contact</button>
-          </router-link>
-        </li>
       </div>
     </div>
   </div>
