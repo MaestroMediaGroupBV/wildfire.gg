@@ -1,25 +1,27 @@
 <template>
   <div>
     <div class="header">
-      <div class="logo">
-        <img src="../assets/logo.png">
-      </div>
-      <div class="nav">
-        <li>
-          <router-link to="/">ABOUT US</router-link>
-        </li>
-        <li>
-          <router-link to="/about">TEAMS</router-link>
-        </li>
-        <li>
-          <router-link to="/about">PARTNERS</router-link>
-        </li>
-        <li>
-          <router-link to="/about">MEDIA</router-link>
-        </li>
-        <li>
-          <router-link to="/about">MERCHANDISING</router-link>
-        </li>
+      <div class="grid">
+        <div class="logo">
+          <img src="../assets/logo.png">
+        </div>
+        <div class="nav">
+          <li>
+            <router-link to="/">ABOUT US</router-link>
+          </li>
+          <li>
+            <router-link to="/about">TEAMS</router-link>
+          </li>
+          <li>
+            <router-link to="/about">PARTNERS</router-link>
+          </li>
+          <li>
+            <router-link to="/about">MEDIA</router-link>
+          </li>
+          <li>
+            <router-link to="/about">MERCHANDISING</router-link>
+          </li>
+        </div>
       </div>
     </div>
   </div>
@@ -34,20 +36,19 @@ export default {
 <style lang="scss" scoped>
 .header {
   background-color: black;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 200px;
+  padding-right: 200px;
   padding-top: 30px;
   padding-bottom: 30px;
-
-  img {
-    margin-bottom: -50px;
-  }
 }
 .nav {
   text-align: right;
+  padding-top: 30px;
+  padding-bottom: 30px;
   a {
     @include headerLink;
     text-decoration: none;
+
     &.router-link-exact-active {
       color: white;
     }
@@ -63,15 +64,10 @@ export default {
   text-align: left;
   width: 100%;
   height: 100%;
+  padding-top: 10px;
 }
-
-button {
-  @include headerLink;
-  width: 137px;
-  height: 54px;
-  border: solid $orange 1px;
-  border-radius: 4px;
-  background-color: $black;
-  color: $orange;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 </style>

@@ -13,7 +13,10 @@
     >
       <slide class="slide" id="slide-image">
         <div class="hero-container">
-          <h1 class="hero-title">GOING TO <a style="color: #ff5800 ">ELITESERRIEN</a> IN STOCKHOLM!</h1>
+          <h1 class="hero-title">
+            GOING TO
+            <a style="color: #ff5800 ">ELITESERRIEN</a> IN STOCKHOLM!
+          </h1>
           <button>MORE INFO</button>
           <p>slide 1</p>
         </div>
@@ -37,7 +40,7 @@ export default {
 
 <style lang="scss" scoped>
 .slide {
-max-height: 1100px;
+  max-height: 1100px;
 }
 .VueCarousel-pagination {
   margin-top: -400px;
@@ -77,8 +80,8 @@ button {
   border-left: 0px;
   border-bottom: solid $white 4px;
   border-radius: 0px;
-  cursor:pointer;
-  outline:none;
+  cursor: pointer;
+  outline: none;
   text-align: left;
   background-color: Transparent;
 }

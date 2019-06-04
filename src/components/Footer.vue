@@ -68,7 +68,7 @@ export default {
 .right {
   text-align: right;
   img {
-    padding-left: 30px;
+    padding-left: 25px;
   }
 }
 
