@@ -9,7 +9,6 @@
       pagination-active-color="#ff7200"
       pagination-color="#555555"
       paginationSize="15"
-      paginationPosition="bottom-overlay"
     >
       <slide class="slide" id="slide-image">
         <div class="hero-container">
@@ -43,9 +42,13 @@ export default {
   max-height: 1100px;
 }
 .VueCarousel-pagination {
-  margin-top: -400px;
-  position: none;
+  .VueCarousel-pagination--bottom-overlay {
+    bottom: 400px;
+  }
 }
+.VueCarousel-dot-container {
+}
+
 #slide-image {
   background-image: url("../assets/images/slider.png");
   height: 1070px;
