@@ -3,7 +3,10 @@
     <Header/>
 
     <PageHero/>
-    <div class="container"></div>
+
+    <div class="container">
+      <Players/>
+    </div>
     <Footer/>
   </div>
 </template>
@@ -12,11 +15,13 @@
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import PageHero from "@/components/PageHero.vue";
+import Players from "@/components/teams/Players.vue";
 export default {
   name: "Teams",
   components: {
     Header,
     PageHero,
+    Players,
     Footer
   }
 };
