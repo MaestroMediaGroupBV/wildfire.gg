@@ -3,13 +3,7 @@
     <Header/>
 
     <HeroTeam/>
-    <div>
-      <tabs>
-        <tab name="First tab">First tab content</tab>
-        <tab name="Second tab">Second tab content</tab>
-        <tab name="Third tab">Third tab content</tab>
-      </tabs>
-    </div>
+
     <div class="container">
       <Players/>
     </div>
@@ -42,5 +36,8 @@ export default {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.csgo {
+  color: black;
 }
 </style>
