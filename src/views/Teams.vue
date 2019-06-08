@@ -2,8 +2,14 @@
   <div>
     <Header/>
 
-    <PageHero/>
-
+    <HeroTeam/>
+    <div>
+      <tabs>
+        <tab name="First tab">First tab content</tab>
+        <tab name="Second tab">Second tab content</tab>
+        <tab name="Third tab">Third tab content</tab>
+      </tabs>
+    </div>
     <div class="container">
       <Players/>
     </div>
@@ -14,13 +20,13 @@
 <script>
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
-import PageHero from "@/components/PageHero.vue";
+import HeroTeam from "@/components/headers/HeroTeam.vue";
 import Players from "@/components/teams/Players.vue";
 export default {
   name: "Teams",
   components: {
     Header,
-    PageHero,
+    HeroTeam,
     Players,
     Footer
   }
