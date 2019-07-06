@@ -5,7 +5,7 @@
     <carousel
       :per-page="1"
       :navigate-to="someLocalProperty"
-      :mouse-drag="false"
+      :mouse-drag="true"
       pagination-active-color="#ff7200"
       pagination-color="#555555"
       paginationSize="15"
@@ -17,10 +17,8 @@
             <a style="color: #ff5800 ">ELITESERRIEN</a> IN STOCKHOLM!
           </h1>
           <button>MORE INFO</button>
-          <p>slide 1</p>
         </div>
       </slide>
-      <slide class="slide2">Slide 2 Content</slide>
     </carousel>
   </div>
 </template>
@@ -51,18 +49,15 @@ export default {
 
 #slide-image {
   background-image: url("../assets/images/slider.png");
-  height: 1070px;
+  height: 100%;
+  padding-bottom: 500px;
+  margin-top: -10px;
+  margin-bottom: -300px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.slide2 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../assets/images/slider.png");
-  height: 1000px;
-}
+
 .hero-container {
   max-width: 1200px;
   text-align: left;

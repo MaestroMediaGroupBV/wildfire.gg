@@ -35,6 +35,10 @@ export default {
 }
 .left {
   text-align: left;
+  img {
+    -webkit-filter: drop-shadow(0px 5px 0px #222);
+    filter: drop-shadow(0px 5px 5px #222);
+  }
 }
 
 .right {
